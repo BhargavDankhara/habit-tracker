@@ -1,8 +1,8 @@
 import React from "react";
 import AllHabitsTopBar from "./components/AllHabitsTopBar";
-import RightSidebar from "./components/RightSidebar";
 import HabitContainer from "./components/HabitContainer";
 import HabitCompleted from "./components/HabitCompleted";
+import HabitsRightSideBar from "./components/HabitsRightSideBar";
 
 export default function AllHabits() {
   return (
@@ -12,7 +12,7 @@ export default function AllHabits() {
         <HabitContainer />
         <HabitCompleted />
       </div>
-      <RightSidebar />
+      <HabitsRightSideBar />
     </div>
   );
 }

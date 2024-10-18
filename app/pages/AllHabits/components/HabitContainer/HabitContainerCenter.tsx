@@ -12,6 +12,8 @@ export default function HabitContainerCenter() {
   return (
     <div>
       <HabitCard />
+      <HabitCard />
+      <HabitCard />
     </div>
   );
 
